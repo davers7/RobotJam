@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1423493322 source:c:\users\david\desktop\robotjam\sprites.c
+	"sprites.h"
+
+1423493330 c:\users\david\desktop\robotjam\sprites.h
+
+1423493316 source:c:\users\david\desktop\robotjam\main.c
+	<stdio.h>
+	<stdlib.h>
+	"sprites.h"
+	"utils.h"
+
+1423485475 c:\users\david\desktop\robotjam\utils.h
+
+1423485465 source:c:\users\david\desktop\robotjam\utils.c
+	"utils.h"
+
+1423493303 source:c:\users\david\desktop\robotjam\game.c
+	"game.h"
+	"sprites.h"
+
+1423493043 c:\users\david\desktop\robotjam\game.h
+	"game_data.h"
+
+1423489635 c:\users\david\desktop\robotjam\game_data.h
+	"bullet_data.h"
+	"player_data.h"
+
+1423486458 c:\users\david\desktop\robotjam\bullet_data.h
+
+1423491022 c:\users\david\desktop\robotjam\player_data.h
+
