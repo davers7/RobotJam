@@ -79,7 +79,7 @@ void update_bullets(game_data *gd) {
                         gd->bullet_slots[i / 8] &= ~(1 << bi);
 
                         // Player loses 1 health point
-                        if (--gd->players[j].health) {
+                        if (!--gd->players[j].health) {
                             // Player is dead
                             // TODO: other player wins
                         }
