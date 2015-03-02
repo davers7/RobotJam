@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "game.h"
 #include "sprites.h"
 #include "utils.h"
 
 void display_sprite(unsigned char size, char sprite[]);
 
 int main(int argc, char *argv[]) {
-    display_sprite(SPRITE_PLAYER_SIZE, sprite_player);
+    game_data gd;
+    start_new_game(&gd);
+
+
     return EXIT_SUCCESS;
 }
 
@@ -21,10 +25,8 @@ void display_sprite(unsigned char size, char sprite[]) {
             } else {
                 printf(" ");
             }
-
             ++j;
         }
-
         printf("\n");
         ++i;
     }

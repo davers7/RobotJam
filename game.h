@@ -11,10 +11,16 @@ void start_new_game(game_data *gd);
 // Updates the state of the game
 void update_state(game_data *gd);
 
+// Updates the players positions
+void update_players(game_data *gd);
+
+// Updates the bullets positions
+void update_bullets(game_data *gd);
+
 // Places a wall
-void place_wall(game_data *gd, char x, char y);
+void place_wall(game_data *gd, unsigned char x, unsigned char y);
 
 // Shoots a bullet
-void shoot_bullet(game_data *gd, char x, char y, char velx, char vely);
+void shoot_bullet(game_data *gd, unsigned char x, unsigned char y, char velx, char vely);
 
 #endif // _GAME_H_
